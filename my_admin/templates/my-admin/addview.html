@@ -1,0 +1,28 @@
+{% extends "my-admin/base.html" %}
+
+{% block page_css %}
+    <link rel="stylesheet" href="/static/css/my_form.css">
+{% endblock page_css %}
+
+{% block page_main %}
+    <div class="container" style="margin-top: 20px">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">添加{{ model_name }}信息</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        {% include "my-admin/form.html" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block page_js %}
+    <script src="/static/js/add_or_change.js"></script>
+{% endblock page_js %}
+
+
