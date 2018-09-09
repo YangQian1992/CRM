@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'app_school.apps.AppSchoolConfig',
     'my_admin.apps.MyAdminConfig',
     'rbac.apps.RbacConfig',
+    'old_boy_crm.apps.OldBoyCrmConfig',
 ]
 
 MIDDLEWARE = [
@@ -50,8 +51,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'rbac.service.rbac.PermissionMiddleware',
+    # 'rbac.service.rbac.PermissionMiddleware',
 ]
+
 
 ROOT_URLCONF = 'day89_CMS系统.urls'
 

@@ -146,7 +146,7 @@ class ModelMyAdmin():
         self.app_label = self.model._meta.app_label
 
     # 批量删除函数
-    def patch_delete(self,queryset):
+    def patch_delete(self,request,queryset):
         queryset.delete()
     # 定义汉语描述
     patch_delete.short_description = "批量删除"
@@ -272,7 +272,7 @@ class ModelMyAdmin():
                 # func_name-->str 故需要通过反射来找到函数名
                 action = getattr(self,func_name)
                 # 执行函数
-                action(queryset)
+                action(request,queryset)
 
         # 获取添加数据的url
         add_url = self.get_add_url()
@@ -288,7 +288,6 @@ class ModelMyAdmin():
         filter_condition = self.get_filter_condition(request)
         # 数据过滤
         data_list = data_list.filter(search_condition).filter(filter_condition)
-        # data_list = data_list.filter(search_condition)
         # 需求：要用到Showlist类中的两个方法，故需要先实例化对象
         show_list = Showlist(self, data_list, request)
         # 调用类中的方法或属性
@@ -377,6 +376,10 @@ class ModelMyAdmin():
             "list_url": list_url,
         })
 
+    def extra_url(self):
+        res = []
+        return res
+
     def get_urls_02(self):
         res = [
             url(r'^$', self.listview, name="{}_{}_list".format(self.app_label, self.model_name)),
@@ -384,6 +387,7 @@ class ModelMyAdmin():
             url(r'^(\d+)/change/$', self.changeview, name="{}_{}_change".format(self.app_label, self.model_name)),
             url(r'^(\d+)/delete/$', self.deleteview, name="{}_{}_delete".format(self.app_label, self.model_name)),
         ]
+        res.extend(self.extra_url())
         return res
 
     @property

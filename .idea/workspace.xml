@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e2e8adf-d53c-4b69-a68c-4dc45cf906ea" name="Default" comment="CMS">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_admin/static/js/change_record.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_boy_crm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_boy_crm/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_boy_crm/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_boy_crm/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_boy_crm/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_boy_crm/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_boy_crm/myAdmin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_boy_crm/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_boy_crm/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/record_score.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/highcharts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/highcharts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/highcharts-3d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/highcharts-3d.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/accessibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/accessibility.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/annotations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/boost-canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/boost-canvas.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/boost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/boost.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/broken-axis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/broken-axis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/bullet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/bullet.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/drag-panes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/drag-panes.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/export-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/export-data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/funnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/gantt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/gantt.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/grid-axis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/grid-axis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/heatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/histogram-bellcurve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/histogram-bellcurve.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/item-series.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/item-series.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/no-data-to-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/offline-exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/offline-exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/oldie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/oldie.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/overlapping-datalabels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/overlapping-datalabels.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/parallel-coordinates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/parallel-coordinates.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/pareto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/pareto.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/pattern-fill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/pattern-fill.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/sankey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/sankey.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/series-label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/series-label.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/solid-gauge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/solid-gauge.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/static-scale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/static-scale.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/stock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/stock.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/streamgraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/streamgraph.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/sunburst.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/sunburst.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/tilemap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/tilemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/treemap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/treemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/variable-pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/variable-pie.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/variwide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/variwide.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/vector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/vector.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/windbarb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/windbarb.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/wordcloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/wordcloud.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/xrange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/xrange.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/avocado.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/avocado.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/dark-blue.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/dark-green.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/dark-unica.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/dark-unica.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/gray.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/grid-light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/grid-light.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/grid.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/sand-signika.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/sand-signika.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/skies.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/sunset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/sunset.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/themes/dark-unica.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/themes/grid-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/themes/sand-signika.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/highcharts-3d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/highcharts-3d.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/canvg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/canvg.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/jspdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/jspdf.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/rgbcolor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/rgbcolor.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/svg2pdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/svg2pdf.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/accessibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/accessibility.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/annotations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/boost-canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/boost-canvas.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/boost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/boost.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/broken-axis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/broken-axis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/bullet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/bullet.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/drag-panes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/drag-panes.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/export-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/export-data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/funnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/gantt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/gantt.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/grid-axis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/grid-axis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/heatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/histogram-bellcurve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/histogram-bellcurve.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/item-series.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/item-series.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/no-data-to-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/offline-exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/offline-exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/oldie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/oldie.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/overlapping-datalabels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/overlapping-datalabels.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/parallel-coordinates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/parallel-coordinates.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/pareto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/pareto.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/pattern-fill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/pattern-fill.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/sankey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/sankey.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/series-label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/series-label.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/solid-gauge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/solid-gauge.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/static-scale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/static-scale.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/stock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/stock.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/streamgraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/streamgraph.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/sunburst.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/sunburst.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/tilemap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/tilemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/treemap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/treemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/variable-pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/variable-pie.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/variwide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/variwide.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/vector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/vector.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/windbarb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/windbarb.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/wordcloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/wordcloud.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/xrange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/xrange.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/avocado.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/avocado.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/dark-blue.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/dark-green.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/dark-unica.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/dark-unica.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/gray.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/grid-light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/grid-light.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/grid.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/sand-signika.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/sand-signika.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/skies.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/sunset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/sunset.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/record_score.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/student_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3a0798ac-3c26-4372-b73b-991b6c46140a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3a0798ac-3c26-4372-b73b-991b6c46140a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day89_CMS系统/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/day89_CMS系统/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_admin/service/sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_admin/service/sites.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_admin/templates/my-admin/listview.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_admin/templates/my-admin/listview.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old_boy_crm/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4464">
+              <caret line="147" column="30" selection-start-line="147" selection-start-column="30" selection-end-line="147" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_info.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/student_info.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/old_boy_crm/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-210">
+              <caret line="232" column="7" lean-forward="true" selection-start-line="232" selection-start-column="7" selection-end-line="232" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Cus</find>
+      <find>Course</find>
+      <find>ClassS</find>
+      <find>classlist</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app_school/apps.py" />
+        <option value="$PROJECT_DIR$/app_school/templates/app-school/student_list.html" />
+        <option value="$PROJECT_DIR$/app_school/templates/app-school/course_list.html" />
+        <option value="$PROJECT_DIR$/app_school/templates/app-school/base.html" />
+        <option value="$PROJECT_DIR$/app_school/templatetags/mytags.py" />
+        <option value="$PROJECT_DIR$/app_school/templates/app-school/teacher_list.html" />
+        <option value="$PROJECT_DIR$/app_school/myAdmin.py" />
+        <option value="$PROJECT_DIR$/app_school/models.py" />
+        <option value="$PROJECT_DIR$/app_school/urls.py" />
+        <option value="$PROJECT_DIR$/templates/login_ajax_huadong.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/day89_CMS系统/urls.py" />
+        <option value="$PROJECT_DIR$/rbac/models.py" />
+        <option value="$PROJECT_DIR$/rbac/myAdmin.py" />
+        <option value="$PROJECT_DIR$/rbac/service/rbac.py" />
+        <option value="$PROJECT_DIR$/app_school/views.py" />
+        <option value="$PROJECT_DIR$/my_admin/templates/my-admin/base.html" />
+        <option value="$PROJECT_DIR$/.gitattributes" />
+        <option value="$PROJECT_DIR$/day89_CMS系统/settings.py" />
+        <option value="$PROJECT_DIR$/my_admin/service/sites.py" />
+        <option value="$PROJECT_DIR$/templates/change_record.html" />
+        <option value="$PROJECT_DIR$/my_admin/static/js/change_record.js" />
+        <option value="$PROJECT_DIR$/my_admin/templates/my-admin/listview.html" />
+        <option value="$PROJECT_DIR$/杨倩2018.9.6.py" />
+        <option value="$PROJECT_DIR$/static/js/record_score.js" />
+        <option value="$PROJECT_DIR$/templates/record_score.html" />
+        <option value="$PROJECT_DIR$/old_boy_crm/myAdmin.py" />
+        <option value="$PROJECT_DIR$/old_boy_crm/views.py" />
+        <option value="$PROJECT_DIR$/templates/student_info.html" />
+        <option value="$PROJECT_DIR$/old_boy_crm/models.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="628" />
+    <option name="y" value="4" />
+    <option name="width" value="725" />
+    <option name="height" value="708" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="day89_CMS系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day89_CMS系统" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day89_CMS系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day89_CMS系统" type="462c0819:PsiDirectoryNode" />
+              <item name="my_admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day89_CMS系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day89_CMS系统" type="462c0819:PsiDirectoryNode" />
+              <item name="old_boy_crm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day89_CMS系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day89_CMS系统" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\day89_CMS系统\app_school\templates\app-school" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\day89_CMS系统\static\plugins" />
+      <recent name="E:\day89_CMS系统\app_school" />
+      <recent name="E:\day89_CMS系统\utils" />
+      <recent name="E:\day89_CMS系统\static\js" />
+      <recent name="E:\day89_CMS系统\static\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="day89_CMS系统" type="Python.DjangoServer" factoryName="Django server">
+      <module name="day89_CMS系统" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="day89_CMS系统.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e2e8adf-d53c-4b69-a68c-4dc45cf906ea" name="Default" comment="" />
+      <created>1536068126926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536068126926</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50076336" side_tool="true" weight="0.33392859" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923664" weight="0.3857143" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32857144" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44045803" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.05496183" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.2487395" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="manage.py@day89_CMS系统" order="8" weight="0.6660714" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32723948" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/old_boy_crm/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3999">
+          <caret line="229" column="24" selection-start-line="229" selection-start-column="6" selection-end-line="229" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day89_CMS系统/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_boy_crm/myAdmin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_admin/templates/my-admin/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day89_CMS系统/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3844">
+          <caret line="124" column="33" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day89_CMS系统/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/db/models/fields/related.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35650">
+          <caret line="1150" column="57" selection-start-line="1150" selection-start-column="37" selection-end-line="1150" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/db/models/fields/related.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1150" column="57" selection-start-line="1150" selection-start-column="37" selection-end-line="1150" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_school/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_school/templates/app-school/add_teacher.html" />
+    <entry file="file://$PROJECT_DIR$/app_school/templatetags/mytags.py" />
+    <entry file="file://$PROJECT_DIR$/app_school/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/template/engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="147" column="12" lean-forward="true" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_school/templates/app-school/base.html" />
+    <entry file="file://$PROJECT_DIR$/app_school/templates/app-school/course_list.html" />
+    <entry file="file://$PROJECT_DIR$/app_school/templates/app-school/edit_course.html" />
+    <entry file="file://$PROJECT_DIR$/app_school/templates/app-school/edit_student.html" />
+    <entry file="file://$PROJECT_DIR$/app_school/templates/app-school/edit_teacher.html" />
+    <entry file="file://$PROJECT_DIR$/app_school/templates/app-school/pagination.html" />
+    <entry file="file://$PROJECT_DIR$/app_school/templates/app-school/student_list.html" />
+    <entry file="file://$PROJECT_DIR$/app_school/templates/app-school/teacher_list.html" />
+    <entry file="file://$PROJECT_DIR$/app_school/myAdmin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_school/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_ajax_huadong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3a0798ac-3c26-4372-b73b-991b6c46140a/schema/main/table/rbac_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/myAdmin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day89_CMS系统/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_school/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/service/rbac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_school/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="932">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3a0798ac-3c26-4372-b73b-991b6c46140a/schema/main/table/old_boy_crm_department">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day89_CMS系统/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_admin/templates/my-admin/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_admin/static/js/change_record.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/change_record.html" />
+    <entry file="file://$PROJECT_DIR$/杨倩2018.9.6.py" />
+    <entry file="file://$PROJECT_DIR$/static/js/record_score.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_admin/service/sites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_admin/utils/mypage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_admin/templates/my-admin/listview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/record_score.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_boy_crm/myAdmin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_boy_crm/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4464">
+          <caret line="147" column="30" selection-start-line="147" selection-start-column="30" selection-end-line="147" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_boy_crm/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="232" column="7" lean-forward="true" selection-start-line="232" selection-start-column="7" selection-end-line="232" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
