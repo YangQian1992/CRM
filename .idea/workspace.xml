@@ -1,250 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e2e8adf-d53c-4b69-a68c-4dc45cf906ea" name="Default" comment="CMS">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_admin/static/js/change_record.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_boy_crm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_boy_crm/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_boy_crm/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_boy_crm/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_boy_crm/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_boy_crm/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_boy_crm/myAdmin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_boy_crm/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_boy_crm/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/record_score.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/highcharts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/highcharts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/highcharts-3d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/highcharts-3d.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/highcharts-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/accessibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/accessibility.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/annotations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/boost-canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/boost-canvas.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/boost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/boost.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/broken-axis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/broken-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/bullet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/bullet.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/drag-panes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/drag-panes.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/export-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/export-data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/gantt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/gantt.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/grid-axis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/grid-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/histogram-bellcurve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/histogram-bellcurve.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/item-series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/item-series.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/no-data-to-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/offline-exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/offline-exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/oldie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/oldie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/overlapping-datalabels.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/overlapping-datalabels.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/parallel-coordinates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/parallel-coordinates.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/pareto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/pareto.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/pattern-fill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/pattern-fill.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/sankey.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/sankey.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/series-label.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/series-label.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/solid-gauge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/solid-gauge.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/static-scale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/static-scale.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/stock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/stock.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/streamgraph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/streamgraph.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/sunburst.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/sunburst.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/tilemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/tilemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/treemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/treemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/variable-pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/variable-pie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/variwide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/variwide.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/vector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/vector.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/windbarb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/windbarb.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/wordcloud.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/wordcloud.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/xrange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/modules/xrange.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/avocado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/avocado.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/dark-blue.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/dark-green.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/dark-unica.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/dark-unica.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/gray.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/grid-light.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/grid-light.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/grid.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/sand-signika.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/sand-signika.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/skies.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/sunset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/js/themes/sunset.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/themes/dark-unica.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/themes/grid-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/css/themes/sand-signika.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/highcharts-3d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/highcharts-3d.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/highcharts-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/canvg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/canvg.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/jspdf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/jspdf.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/rgbcolor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/rgbcolor.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/svg2pdf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/lib/svg2pdf.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/accessibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/accessibility.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/annotations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/boost-canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/boost-canvas.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/boost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/boost.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/broken-axis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/broken-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/bullet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/bullet.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/drag-panes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/drag-panes.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/export-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/export-data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/gantt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/gantt.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/grid-axis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/grid-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/histogram-bellcurve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/histogram-bellcurve.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/item-series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/item-series.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/no-data-to-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/offline-exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/offline-exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/oldie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/oldie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/overlapping-datalabels.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/overlapping-datalabels.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/parallel-coordinates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/parallel-coordinates.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/pareto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/pareto.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/pattern-fill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/pattern-fill.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/sankey.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/sankey.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/series-label.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/series-label.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/solid-gauge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/solid-gauge.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/static-scale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/static-scale.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/stock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/stock.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/streamgraph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/streamgraph.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/sunburst.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/sunburst.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/tilemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/tilemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/treemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/treemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/variable-pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/variable-pie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/variwide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/variwide.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/vector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/vector.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/windbarb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/windbarb.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/wordcloud.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/wordcloud.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/xrange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/modules/xrange.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/avocado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/avocado.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/dark-blue.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/dark-green.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/dark-unica.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/dark-unica.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/gray.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/grid-light.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/grid-light.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/grid.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/sand-signika.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/sand-signika.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/skies.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/sunset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/highcharts/themes/sunset.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/record_score.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/student_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3a0798ac-3c26-4372-b73b-991b6c46140a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3a0798ac-3c26-4372-b73b-991b6c46140a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day89_CMS系统/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/day89_CMS系统/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_admin/service/sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_admin/service/sites.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_admin/templates/my-admin/listview.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_admin/templates/my-admin/listview.html" afterDir="false" />
-    </list>
+    <list default="true" id="6e2e8adf-d53c-4b69-a68c-4dc45cf906ea" name="Default" comment="old_boy_edu_CRM" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -300,8 +57,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/old_boy_crm/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="232" column="7" lean-forward="true" selection-start-line="232" selection-start-column="7" selection-end-line="232" selection-end-column="7" />
+            <state relative-caret-position="-272">
+              <caret line="246" column="19" lean-forward="true" selection-start-line="246" selection-start-column="19" selection-end-line="246" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -373,7 +130,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="628" />
     <option name="y" value="4" />
     <option name="width" value="725" />
@@ -486,19 +243,30 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50076336" side_tool="true" weight="0.33392859" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923664" weight="0.3857143" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32857144" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44045803" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18015267" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" visible="true" weight="0.05496183" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2487395" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -511,7 +279,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.32723948" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,6 +286,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="old_boy_edu_CRM" />
+    <option name="LAST_COMMIT_MESSAGE" value="old_boy_edu_CRM" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -809,8 +580,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/old_boy_crm/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="232" column="7" lean-forward="true" selection-start-line="232" selection-start-column="7" selection-end-line="232" selection-end-column="7" />
+        <state relative-caret-position="-272">
+          <caret line="246" column="19" lean-forward="true" selection-start-line="246" selection-start-column="19" selection-end-line="246" selection-end-column="19" />
         </state>
       </provider>
     </entry>
